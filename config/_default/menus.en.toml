@@ -7,8 +7,8 @@ url = "about/"
 weight = 1
 
 [[main]]
-name = "course"
-url = "course/"
+name = "Team"
+url = "teacher/"
 weight = 2
 
 [[main]]
@@ -41,10 +41,6 @@ hasChildren = true
   name = "research"
   url = "research/"
   
-[[main]]
-name = "blog"
-url = "blog/"
-weight = 4
   
 [[main]]
 name = "Contact"
