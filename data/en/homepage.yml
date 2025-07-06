@@ -4,37 +4,37 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Building the Future Together"
+      content : "Our team works on smart tech—robots, AI, and more—using fast wireless and cloud tools to solve real problems in life and work."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Apply now"
-        link : "contact/"
+        label : "Learn More"
+        link : "about/"
 
     # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Shaping the Future of Intelligent Systems"
+      content : "Collaborating across disciplines, we drive research in machine learning, wireless systems, and smart sensing to build the connected technologies that will redefine our world"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Apply now"
-        link : "contact/"
+        label : "Learn More"
+        link : "about/"
 
     # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "NextG-Driven Discovery Starts Here"
+      content : "With a focus on cutting-edge AI, cloud/edge computing, and immersive technologies, we are laying the foundation for the next wave of societal transformation through connected intelligent systems"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Apply now"
-        link : "contact/"
+        label : "Learn More"
+        link : "about/"
 
 
 ############################### Banner feature ###############################
@@ -84,11 +84,11 @@ course:
 ########################## Call to action ############################
 cta:
   enable : true
-  subtitle : "Click to Join the Advance Workshop"
-  title : "Training In Advannce Networking"
+  subtitle : "Join the future of connected intelligent systems"
+  title : "Workshop on NextG, AI, and Intelligent Edge"
   button:
     enable : true
-    label : "join now"
+    label : "Learn More"
     link : "contact/"
 
 
