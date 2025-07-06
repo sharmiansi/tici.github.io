@@ -1,34 +1,44 @@
 {{ define "main" }}
 
-<!-- teachers -->
 <section class="section">
   <div class="container">
+
+    {{ $courses := slice }}
+    {{ range .Data.Pages }}
+    {{ $courses = $courses | append .Params.course }}
+    {{ end }}
+    {{ $courses = uniq $courses }}
+
+    {{ range $course := $courses }}
+    <h2 class="mb-3">{{ $course }}</h2>
     <div class="row">
-      <div class="col-12">
-        <!-- teacher category list -->
-        <ul class="list-inline text-center filter-controls mb-5">
-          <li class="list-inline-item m-3 text-uppercase active" data-filter="all">{{ i18n "all" }}</li>
-          {{ $categories := slice }}
-          {{ range .Data.Pages }}
-          {{ $categories = $categories | append .Params.Course }}
-          {{ end }}
-          {{ range ( $categories | uniq ) }}
-          <li class="list-inline-item m-3 text-uppercase" data-filter="{{ . | urlize }}">{{ . | humanize }}</li>
-          {{ end }}
-        </ul>
-      </div>
-    </div>
-    <!-- teacher list -->
-    <div class="row filtr-container">
-      <!-- teacher -->
-      {{ range .Data.Pages }}
-      <div data-category="{{ .Params.Course | urlize }}" class="col-lg-4 col-sm-6 filtr-item">
-        {{ .Render "teacher" }}
+      {{ range sort (where $.Data.Pages "Params.course" $course) "Params.seniority" true }}
+      <div class="col-md-6 mb-4 d-flex">
+        <div class="card flex-fill border-0 shadow-sm">
+          <div class="row g-0 align-items-center">
+            <div class="col-4 p-3 text-center">
+              <img src="{{ .Params.image | relURL }}" class="img-fluid rounded-1 shadow-sm"  style="border-radius: 10px; max-width: 100%; height: auto;" alt="{{ .Title }}">
+            </div>
+            <div class="col-8 p-3">
+              <h5 class="mb-1">{{ .Title }}</h5>
+              <p class="fst-italic mb-2">{{ .Params.bio }}</p>
+              {{ if .Params.research }}
+              <ul class="mb-0 ps-3">
+                {{ range .Params.research }}
+                <li class="mb-2 text-dark" style="line-height: 1.5;">• {{ . }}</li>
+                {{ end }}
+              </ul>
+
+              {{ end }}
+            </div>
+          </div>
+        </div>
       </div>
       {{ end }}
     </div>
+    {{ end }}
+
   </div>
 </section>
-<!-- /teachers -->
 
 {{ end }}
