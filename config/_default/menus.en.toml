@@ -12,14 +12,15 @@ url = "team/"
 weight = 2
 
 [[main]]
+name = "Publications"
+url = "publications/"
 weight = 3
+
+[[main]]
+weight = 4
 name = "Pages"
 hasChildren = true
 
-  [[main]]
-  parent = "Pages"
-  name = "teacher"
-  url = "teacher/"
 
   [[main]]
   parent = "Pages"
