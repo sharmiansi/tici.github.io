@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "TICI - Research"
 draft: false
 bg_image: "images/backgrounds/lab.jpg"
 

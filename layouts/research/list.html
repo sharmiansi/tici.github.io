@@ -1,5 +1,6 @@
 {{ define "main" }}
 
+
 <!-- research -->
 <section class="section">
   <div class="container">
@@ -16,7 +17,11 @@
           <div class="card-body">
 
             <!-- Title -->
-            <h5 class="card-title fw-bold mb-3">{{ .Title }}</h5>
+          
+            <h5 class="card-title fw-bold mb-3">
+              <a href="{{ .RelPermalink }}" class="text-dark text-decoration-none">{{ .Title }}</a>
+            </h5>
+
 
             <!-- Image -->
             {{ with .Params.image }}
@@ -27,7 +32,7 @@
 
             <!-- text-->
             <div class="card-text mb-3">
-              {{ .Summary }}
+             {{ .Content | truncate 150 }}
             </div>
 
             <!-- Authors -->
