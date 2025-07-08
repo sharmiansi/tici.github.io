@@ -17,7 +17,12 @@ url = "publications/"
 weight = 3
 
 [[main]]
+name = "Research"
+url = "research/"
 weight = 4
+
+[[main]]
+weight = 5
 name = "Pages"
 hasChildren = true
 
@@ -43,10 +48,10 @@ hasChildren = true
   url = "research/"
   
   
-[[main]]
-name = "Contact"
-url = "contact/"
-weight = 5
+# [[main]]
+# name = "Contact"
+# url = "contact/"
+# weight = 5
 
 
 # footer menu
