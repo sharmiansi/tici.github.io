@@ -1,6 +1,5 @@
 ---
-title: "Publications"
-draft: false
+title: "TICI - Publications"
 bg_image: "images/backgrounds/lab.jpg"
 
 ---

@@ -22,36 +22,14 @@ url = "research/"
 weight = 4
 
 [[main]]
+name = "Workshop"
+url = "workshop/"
 weight = 5
-name = "Pages"
-hasChildren = true
 
 
-  [[main]]
-  parent = "Pages"
-  name = "notice"
-  url = "notice/"
-
-  [[main]]
-  parent = "Pages"
-  name = "event"
-  url = "event/"
-
-  [[main]]
-  parent = "Pages"
-  name = "scholarship"
-  url = "scholarship/"
-
-  [[main]]
-  parent = "Pages"
-  name = "research"
-  url = "research/"
   
   
-# [[main]]
-# name = "Contact"
-# url = "contact/"
-# weight = 5
+
 
 
 # footer menu

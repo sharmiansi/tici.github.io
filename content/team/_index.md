@@ -1,5 +1,5 @@
 ---
-title: "Teams"
+title: "TICI - Team"
 draft: false
 # page title background image
 bg_image: "images/banner/banner-2.jpg"

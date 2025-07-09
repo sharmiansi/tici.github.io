@@ -1,5 +1,5 @@
 ---
-title: "About Us"
+title: "TICI - About Us"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/lab.jpg"
