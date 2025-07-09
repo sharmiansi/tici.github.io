@@ -1,5 +1,13 @@
 <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
-  <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0"><span class="h2 d-block">{{ humanize .PublishDate.Day }}</span> {{ .PublishDate.Format "Jan, 2006"}}</div>
+ <div class="d-md-table-cell text-center p-3 bg-primary text-white mb-4 mb-md-0" style="width: 90px; min-width: 90px;">
+  <div style="font-size: 2rem; font-weight: bold;">
+    {{ .PublishDate.Format "2" }}
+  </div>
+  <div style="font-size: 0.875rem;">
+    {{ .PublishDate.Format "Jan, 2006" }}
+  </div>
+</div>
+
   <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
     <a href="{{ .Permalink }}" class="h4 mb-3 d-block">{{ .Title }}</a>
     <p class="mb-0">{{ .Summary | truncate 100 }}</p>
