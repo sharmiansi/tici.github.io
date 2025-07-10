@@ -12,7 +12,7 @@ slider:
       button:
         enable : true
         label : "Learn More"
-        link : "about/"
+        link : "/"
 
     # slider item loop
     - title : "Shaping the Future of Intelligent Systems"
@@ -23,7 +23,7 @@ slider:
       button:
         enable : true
         label : "Learn More"
-        link : "about/"
+        link : "/"
 
     # slider item loop
     - title : "NextG-Driven Discovery Starts Here"
@@ -34,33 +34,7 @@ slider:
       button:
         enable : true
         label : "Learn More"
-        link : "about/"
-
-
-############################### Banner feature ###############################
-banner_feature:
-  enable : false
-  image : "images/banner/banner-feature.png"
-  feature_item:
-    # feature item loop
-    - name : "Scholorship News"
-      icon : "ti-book" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
-
-    # feature item loop
-    - name : "Our Notice Board"
-      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
-
-    # feature item loop
-    - name : "Our Achievements"
-      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
-
-    # feature item loop
-    - name : "Admission Now"
-      icon : "ti-write" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+        link : "/"
 
 
 ############################## about ##################################
@@ -72,14 +46,7 @@ about:
   button:
     enable : true
     label : "Learn more"
-    link : "about/"
-
-
-############################# Course ################################
-course:
-  enable : false
-  title : "Our Course"
-  # course item comes from "content/**/course" folder.
+    link : "/"
 
 ########################## Call to action ############################
 cta:
@@ -89,19 +56,19 @@ cta:
   button:
     enable : true
     label : "Learn More"
-    link : "contact/"
-
+    link : "/"
 
 ######################## Success story #############################
 success_story:
   enable : true
   bg_image : "images/backgrounds/success-story.jpg"
-  title : "Success Stories"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
-            
-            
-  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+  title : "Vision"
+  content : "Connected intelligent systems, supported over NextG communication and distributed compute are key to the next societal transformation. These systems include edge/cloud-supported robotics, augmented reality/virtual reality, Chat/CodeBots based on large language models, and real time media, which promise to revolutionize logistics, manufacturing, infrastructure, healthcare, education, and entertainment. This revolution will critically depend on the three key innovation areas of    
+(i) empirical and foundational work in machine learning,    
+(ii) NextG wireless and compute systems, and    
+(iii) sensing and communication systems with on-board intelligence. 
+
+This initiative brings together faculty, students, and researchers across the Texas A&M University community to enable collaborative research and attain primacy in connected intelligent systems"
   # video link
   video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
 
