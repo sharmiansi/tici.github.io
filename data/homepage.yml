@@ -75,7 +75,7 @@ This initiative brings together faculty, students, and researchers across the Te
 
 ############################# event ################################
 event:
-  enable : true
+  enable : false
   title : "Upcoming Events"
   # event item comes from "content/**/event" folder.
 
